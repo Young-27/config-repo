@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    # driver-class-name: org.postgresql.Driver
+    # username: commonuser
+    # password: commonpass
+    # url: jdbc:postgresql://localhost:5432/common-db
+
+logging:
+  level:
+    root: INFO
