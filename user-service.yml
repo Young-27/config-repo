@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: user-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
 
 eureka:
   client:
